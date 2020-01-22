@@ -1,0 +1,270 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* vnav*/
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #003c5a;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+/* fin*/
+#global >#bar_navigation> nav {
+	height: 100px;
+   background:#003c5a;
+}
+#Partie_1{
+	background:#003c5a;
+}
+#menu1{
+	height: 700px;
+	
+	background:url("../mamoune/menu1.png");
+	background-size: 130%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#Partie_2{
+	height: 690px;
+	background:#ecf4f8;
+}
+#Partie_3{
+	height: 700px;
+	border:1px solid red;
+}
+#Partie_4{
+	height: 690px;
+	background:#ecf4f8;
+}
+#Partie_5{
+	height: 420px;
+	background:#003c5a;
+}
+#Partie_6{
+	height: 590px;
+	background:#e76f33;
+}
+#Partie_7{
+	height: 200px;
+	background:#282828;
+}
+#container1{
+	border:1px solid red;
+
+}
+.text-center{
+	color: white;
+	
+	
+
+}
+h1{
+	font-size: 60px;
+}
+.btn{
+	
+   width: 185px;
+	
+	margin-top: 25px;
+}
+.boutton{
+	color: white;
+	background: #fc8f44;
+	border-radius:24px;
+
+}
+.boutton > span {
+    position: relative;
+    
+}
+/* Partie 2 */
+.col-md-6 {
+
+}
+#elementpartie2-1{
+	color: #252525;
+	font-size: 40px;
+	margin-left: 40px;
+	font-family: merriweather;
+}
+#elementpartie2-2{
+ font-size: 15px;
+ 
+}
+#elementpartie2-3{
+ font-weight: 300;
+
+}
+#ContainerPartie_2{
+	
+}
+#image2{
+	max-width: 100%;
+    height: auto;
+
+	
+	
+	
+	
+}
+
+.container-fluid{
+	height: auto;
+
+}
+/* PArtie 3 */
+#menu2{
+	height: 100;
+}
+	
+
+/* PARTIE 4 */
+#Partie_4>.container{
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 300px;
+    max-width: 480px;
+    border:1px solid red;
+}
+#elementpartie5{
+	margin-left: 160px;
+    
+}
+#elementpartie5-1{
+	font-size: 35px;
+	color: white;
+	margin-left: 100px;
+	padding: 120px;
+
+	font-family: merriweather;
+}
+#elementpartie5-2{
+	font-family: merriweather;
+	font-size: 15px;
+	margin-top: -130px;
+	margin-left: 150px;
+}
+#formulaire {
+	margin-top: 30px;
+	margin-left: 140px;
+	 
+}
+#formulaire input{
+	width: 9cm;
+    border-radius: 24px;
+    height: 50px;
+}
+#formulaire button{
+	width: 5cm;
+	border-radius: 24px;
+	height: 50px;
+	margin-left: 30px;
+	border:none;	
+	background:#fc8f44;
+}
+/* PARTIE 7*/
+#linkfooter li a {
+	
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	margin-left: 30px;
+}
+#linkfooter li{
+	display: inline-block;
+	margin-top: 60px;
+}
+#list_footer li a{
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	margin-left: 10px;
+}
+#list_footer li {
+	color: #7d7d7d;
+	display: inline-block;
+}
+
+#langerba{
+	margin-top: 50px;
+	font-size: 25px;
+}
+#langerba a{
+	color: white;
+	
+	font-family: merriweather;
+	text-decoration: none;
+
+	
+
+}

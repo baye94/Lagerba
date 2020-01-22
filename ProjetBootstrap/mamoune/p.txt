@@ -1,0 +1,105 @@
+ <!-- MENU 3 -->
+    <div id="menu3">
+      <div class="container">
+        <h2 class="text-center">6 reasons to start learn language</h2>
+        <!--  PREMIERE LIGNE -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="image/world.png" alt="">
+              </div>
+              <div class="col-md-10">
+                <h3>English is spoken all over the world</h3>
+                <p>
+                  English is not the most widely spoken language (that title goes to <br> 
+                  Chinese), but it does come in third, after Spanish. <br>
+                  And the number of 335 million native speakers is respectable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="image/bag.png" alt="">
+              </div>
+              <div class="col-md-10">
+                <h3>International business requires English</h3>
+                <p>
+                  In terms of international commerce, English is the language to <br> 
+                  learn. When the Chinese do business in Egypt, the negotiations <br>
+                  and transactions happen in English.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <!-- DEUXIEME LIGNE -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="image/education.png" alt="">
+              </div>
+              <div class="col-md-10">
+                <h3>Education and research opportunities</h3>
+                <p>
+                  Thinking of studying abroad or publishing a research paper?<br> 
+                  Chances are you will decide to learn English at some point along<br>
+                  the way, or to study at your chosen institution.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="image/traveling.png" alt="">
+              </div>
+              <div class="col-md-10">
+                <h3>A perfect language for traveling</h3>
+                <p>
+                  If you travel often. you'll note signs tend to come in the local<br> 
+                  tongue first and English second. That's because English is<br>
+                  considered the most popular international language.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <!-- TROISIEME LIGNE -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="image/gallery.png" alt="">
+              </div>
+              <div class="col-md-10">
+                <h3>Education and research opportunities</h3>
+                <p>
+                  Thinking of studying abroad or publishing a research paper?<br> 
+                  Chances are you will decide to learn English at some point along<br>
+                  the way, or to study at your chosen institution.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="image/book.png" alt="">
+              </div>
+              <div class="col-md-10">
+                <h3>A perfect language for traveling</h3>
+                <p>
+                  If you travel often. you'll note signs tend to come in the local<br> 
+                  tongue first and English second. That's because English is<br>
+                  considered the most popular international language.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
